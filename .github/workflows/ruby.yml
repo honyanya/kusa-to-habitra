@@ -3,7 +3,7 @@ name: Ruby
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 12-15 * * *' ## JST 21-24
+    - cron: '0 * * * *'
 jobs:
   ruby:
 
